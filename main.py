@@ -5,6 +5,6 @@ import itchat
 def print_content(msg):
     print(msg['Text'])
 
-
+    
 itchat.auto_login()
 itchat.run()
